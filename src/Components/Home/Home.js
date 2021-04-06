@@ -12,7 +12,7 @@ const Home = () => {
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center">
             {eventData.map((event) => (
-              <EventCard event={event} />
+              <EventCard eventData={eventData} event={event} />
             ))}
           </div>
         </div>
