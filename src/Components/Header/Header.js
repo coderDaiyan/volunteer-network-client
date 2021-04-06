@@ -27,7 +27,7 @@ const Header = () => {
               id="navbarSupportedContent"
             >
               <span className="me-auto"></span>
-              <div class="d-flex">
+              <div className="d-flex">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
                     <Link
@@ -49,7 +49,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <Link to="/admin">
-                    <button class="btn btn-outline-danger" type="button">
+                    <button className="btn btn-outline-danger" type="button">
                       Admin
                     </button>
                   </Link>
